@@ -1,0 +1,11 @@
+# requirements.txt for Domain-Specific RAG Chatbot
+langchain
+faiss-cpu
+sentence-transformers
+streamlit
+PyPDF2
+pdfplumber
+tiktoken
+scikit-learn
+google-generativeai
+python-dotenv

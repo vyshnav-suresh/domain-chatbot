@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+.envrc
+
+# Environment variables
+.env
+.env.*
+
+# Packaging / build
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# Caches & logs
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+coverage.xml
+htmlcov/
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/**/secrets.toml
+# Uncomment if you want to ignore all Streamlit config
+# .streamlit/
+
+# Model/data caches
+*.bin
+*.pt
+*.model
+*.onnx
+
+# Misc
+*.swp
+*.swo

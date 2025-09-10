@@ -1,0 +1,24 @@
+# JSONL evaluation dataset for the RAG chatbot.
+# Each line is a JSON object with fields:
+# {
+#   "question": "...",
+#   "expected_answer": "...",          # short canonical answer
+#   "expected_sources": ["Doc1.pdf"],   # document names (or substrings) considered correct
+#   "notes": "optional context"
+# }
+# Replace placeholder questions with your domain content.
+{"question": "What is the primary function of the system?", "expected_answer": "<fill>", "expected_sources": ["Doc1"], "notes": "factoid"}
+{"question": "List the steps of the deployment process.", "expected_answer": "<fill>", "expected_sources": ["Manual", "Guide"], "notes": "procedural"}
+{"question": "How does the scheduling algorithm determine priority?", "expected_answer": "<fill>", "expected_sources": ["Paper"], "notes": "inferential"}
+{"question": "What are the hardware requirements?", "expected_answer": "<fill>", "expected_sources": ["Spec"], "notes": "factoid"}
+{"question": "Compare approach A and B in terms of accuracy and latency.", "expected_answer": "<fill>", "expected_sources": ["Study"], "notes": "comparative"}
+{"question": "Does the document discuss Redmi devices?", "expected_answer": "No / Out-of-scope", "expected_sources": [], "notes": "negative case"}
+{"question": "What safety mechanisms are recommended?", "expected_answer": "<fill>", "expected_sources": ["Safety"], "notes": "factoid"}
+{"question": "Summarize the architecture in one paragraph.", "expected_answer": "<fill>", "expected_sources": ["Architecture"], "notes": "summary"}
+{"question": "What are the known limitations?", "expected_answer": "<fill>", "expected_sources": ["Limitations", "Discussion"], "notes": "factoid"}
+{"question": "Give the formula for metric X and explain terms.", "expected_answer": "<fill>", "expected_sources": ["Appendix"], "notes": "formula"}
+{"question": "What datasets are used for evaluation?", "expected_answer": "<fill>", "expected_sources": ["Evaluation"], "notes": "factoid"}
+{"question": "How is error handling implemented?", "expected_answer": "<fill>", "expected_sources": ["Implementation", "Guide"], "notes": "inferential"}
+{"question": "List configuration parameters and defaults.", "expected_answer": "<fill>", "expected_sources": ["Config"], "notes": "factoid"}
+{"question": "What licenses apply?", "expected_answer": "<fill>", "expected_sources": ["License"], "notes": "factoid"}
+{"question": "Is real-time processing supported?", "expected_answer": "<fill>", "expected_sources": ["Overview"], "notes": "yes/no"}
